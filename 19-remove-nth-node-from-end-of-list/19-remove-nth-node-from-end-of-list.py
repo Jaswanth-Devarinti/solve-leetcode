@@ -17,11 +17,6 @@ class Solution:
             nth_node = nth_node.next
             c+=1
         
-        pointer_one = head
-        if pointer_one.next is None:
-            pointer_one = None
-            return pointer_one
-        
         
         if nth_node is None:
             head = head.next
